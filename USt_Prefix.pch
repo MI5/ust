@@ -1,0 +1,54 @@
+//
+// Prefix header for all source files of the 'USt' target in the 'USt' project
+//
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import <CoreData/CoreData.h>
+
+	// eigene Kategorie für UIViewController soll überall verfügbar sein
+	#import "Categ4UIViewCon.h"
+	// Data-Singleton, welches ein paar wenige globale Variablen enthält
+	#import "Data.h"
+
+
+
+
+    // Ein paar Konstanten, die überall zur Verfügung stehen sollen
+    // Unsere 3 bmgTypen
+    static const NSInteger undefinedBMG		= 0;
+    static const NSInteger entgeltlichBMG	= 1; // bzw. bei igE: Erwerb KFZ
+    static const NSInteger unentgeltlichBMG	= 2; // bzw. bei igE: Erwerb anderer Gegenstände
+    static const NSInteger verbringenBMG	= 3; // gilt nur bei igE: Verbringen
+
+    // Unsere 2 Besteuerungstypen
+    static const NSInteger kSollBesteuerung = 0;
+    static const NSInteger kIstBesteuerung	= 1;
+
+    // Unsere 3 Umsatzarten-Typen
+    static const NSInteger kLeistung	= 0;
+    static const NSInteger kEinfuhr		= 1;
+    static const NSInteger kIge			= 2;
+
+    // Unsere 2 Steuersatz-Typen
+    static const NSInteger k19Prozent	= 0;
+    static const NSInteger k7Prozent	= 1;
+
+    // Unsere 3 Leistungsarten-Typen
+    static const NSInteger kUndefined		= 0;
+    static const NSInteger kLieferung		= 1;
+    static const NSInteger kSonstLeistung	= 2;
+
+
+
+    // Übernommen aus kfz_Controller, seit LMVC 4.2, sonst massive Probs
+    static const NSInteger kArbeitnehmer	= 0;
+    static const NSInteger kUnternehmer		= 1;
+#endif

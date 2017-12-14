@@ -1,0 +1,1148 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* UStAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* UStAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28C3AD8A0F43EF2300507BA6 /* USt.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 28C3AD890F43EF2300507BA6 /* USt.xcdatamodel */; };
+		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
+		3903289311F794CE001F4B08 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3903289211F794CE001F4B08 /* Settings.bundle */; };
+		39070BD211F5DDEE00E50839 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 39070BD111F5DDEE00E50839 /* iTunesArtwork */; };
+		39090852125D315300884741 /* IgeRechnung.m in Sources */ = {isa = PBXBuildFile; fileRef = 39090850125D315300884741 /* IgeRechnung.m */; };
+		39090853125D315300884741 /* IgeRechnung.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39090851125D315300884741 /* IgeRechnung.xib */; };
+		3910F10011BB0CF800352EE3 /* Kfz_Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3910F0FE11BB0CF800352EE3 /* Kfz_Controller.m */; };
+		3911D7B111A5689200975B7B /* Stufe33.m in Sources */ = {isa = PBXBuildFile; fileRef = 3911D7B011A5689200975B7B /* Stufe33.m */; };
+		3911D7BB11A5695800975B7B /* Stufe33.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3911D7BA11A5695800975B7B /* Stufe33.xib */; };
+		3911D80511A5702500975B7B /* Stufe34.m in Sources */ = {isa = PBXBuildFile; fileRef = 3911D80411A5702500975B7B /* Stufe34.m */; };
+		3911D80711A5703D00975B7B /* Stufe34.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3911D80611A5703D00975B7B /* Stufe34.xib */; };
+		3911D90E11A7DAD400975B7B /* StufeLS.m in Sources */ = {isa = PBXBuildFile; fileRef = 3911D90D11A7DAD400975B7B /* StufeLS.m */; };
+		3914244111F4C78100D1E9E3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3914244011F4C78100D1E9E3 /* Icon.png */; };
+		3914244311F4C78E00D1E9E3 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3914244211F4C78E00D1E9E3 /* Icon@2x.png */; };
+		3914244511F4C79B00D1E9E3 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 3914244411F4C79B00D1E9E3 /* Icon-72.png */; };
+		3916AF82116A9C0E00354C30 /* Stufe21.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3916AF81116A9C0E00354C30 /* Stufe21.xib */; };
+		392AEC8F1202325B00A036D4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 392AEC8E1202325B00A036D4 /* Default.png */; };
+		392C59F01180A65A00860526 /* Stufe20.m in Sources */ = {isa = PBXBuildFile; fileRef = 392C59EF1180A65A00860526 /* Stufe20.m */; };
+		392C59F81180A6DB00860526 /* Stufe20.xib in Resources */ = {isa = PBXBuildFile; fileRef = 392C59F71180A6DB00860526 /* Stufe20.xib */; };
+		3939F97B118F5DF700742AB2 /* Stufe3200.m in Sources */ = {isa = PBXBuildFile; fileRef = 3939F97A118F5DF700742AB2 /* Stufe3200.m */; };
+		39414202124EA69200D093D5 /* EinfuhrResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 39414200124EA69200D093D5 /* EinfuhrResult.m */; };
+		39414203124EA69200D093D5 /* EinfuhrResult.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39414201124EA69200D093D5 /* EinfuhrResult.xib */; };
+		39414218124EAB5B00D093D5 /* IgeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 39414216124EAB5B00D093D5 /* IgeResult.m */; };
+		39414219124EAB5B00D093D5 /* IgeResult.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39414217124EAB5B00D093D5 /* IgeResult.xib */; };
+		39662EC71249583000CEF95A /* Result.m in Sources */ = {isa = PBXBuildFile; fileRef = 39662EC51249583000CEF95A /* Result.m */; };
+		39662EC81249583000CEF95A /* Result.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39662EC61249583000CEF95A /* Result.xib */; };
+		39678DB811C81812008C7A1E /* StufeSteuersatz.m in Sources */ = {isa = PBXBuildFile; fileRef = 39678DB611C81812008C7A1E /* StufeSteuersatz.m */; };
+		39678DB911C81812008C7A1E /* StufeSteuersatz.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39678DB711C81812008C7A1E /* StufeSteuersatz.xib */; };
+		39692305118EB0C500570852 /* Stufe32.m in Sources */ = {isa = PBXBuildFile; fileRef = 39692304118EB0C500570852 /* Stufe32.m */; };
+		39692309118EB38900570852 /* Stufe32.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39692308118EB38900570852 /* Stufe32.xib */; };
+		3969877C11D53F380096157B /* Stufe20a.m in Sources */ = {isa = PBXBuildFile; fileRef = 3969877A11D53F380096157B /* Stufe20a.m */; };
+		3969877D11D53F380096157B /* Stufe20a.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3969877B11D53F380096157B /* Stufe20a.xib */; };
+		3969885E11D5648C0096157B /* Einfuhr.m in Sources */ = {isa = PBXBuildFile; fileRef = 3969885C11D5648C0096157B /* Einfuhr.m */; };
+		3969885F11D5648C0096157B /* Einfuhr.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3969885D11D5648C0096157B /* Einfuhr.xib */; };
+		3969888711D56C300096157B /* Einfuhr1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3969888511D56C300096157B /* Einfuhr1.m */; };
+		3969888811D56C300096157B /* Einfuhr1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3969888611D56C300096157B /* Einfuhr1.xib */; };
+		396AC15C11D7DC1E00D90152 /* StufeEntstehung2.m in Sources */ = {isa = PBXBuildFile; fileRef = 396AC15A11D7DC1E00D90152 /* StufeEntstehung2.m */; };
+		396AC15D11D7DC1E00D90152 /* StufeEntstehung2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396AC15B11D7DC1E00D90152 /* StufeEntstehung2.xib */; };
+		396AC17D11D7E09900D90152 /* VAZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 396AC17B11D7E09900D90152 /* VAZ.m */; };
+		396AC17E11D7E09900D90152 /* VAZ.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396AC17C11D7E09900D90152 /* VAZ.xib */; };
+		396AC1BC11D7E95400D90152 /* StufeAntragIst.m in Sources */ = {isa = PBXBuildFile; fileRef = 396AC1BA11D7E95400D90152 /* StufeAntragIst.m */; };
+		396AC1BD11D7E95400D90152 /* StufeAntragIst.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396AC1BB11D7E95400D90152 /* StufeAntragIst.xib */; };
+		396AC22411D802F800D90152 /* IgeEntstehung.m in Sources */ = {isa = PBXBuildFile; fileRef = 396AC22211D802F800D90152 /* IgeEntstehung.m */; };
+		396AC22511D802F800D90152 /* IgeEntstehung.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396AC22311D802F800D90152 /* IgeEntstehung.xib */; };
+		396CFBBE11DA2AD1005C014F /* StufeSchuldner.m in Sources */ = {isa = PBXBuildFile; fileRef = 396CFBBC11DA2AD1005C014F /* StufeSchuldner.m */; };
+		396CFBBF11DA2AD1005C014F /* StufeSchuldner.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396CFBBD11DA2AD1005C014F /* StufeSchuldner.xib */; };
+		396CFFFC11DA6D9B0025C712 /* Stufe13b.m in Sources */ = {isa = PBXBuildFile; fileRef = 396CFFFA11DA6D9B0025C712 /* Stufe13b.m */; };
+		396CFFFD11DA6D9B0025C712 /* Stufe13b.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396CFFFB11DA6D9B0025C712 /* Stufe13b.xib */; };
+		396E21101258EE58002266EF /* Changes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 396E210F1258EE58002266EF /* Changes.rtf */; };
+		396EC86711D1622C00734697 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 396EC86611D1622C00734697 /* Data.m */; };
+		396EE96611D0D7530029FE72 /* UmsatzArten.m in Sources */ = {isa = PBXBuildFile; fileRef = 396EE96411D0D7530029FE72 /* UmsatzArten.m */; };
+		396EE96711D0D7530029FE72 /* UmsatzArten.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396EE96511D0D7530029FE72 /* UmsatzArten.xib */; };
+		396F66F811D5EE2200B6AEED /* Ige.m in Sources */ = {isa = PBXBuildFile; fileRef = 396F66F611D5EE2200B6AEED /* Ige.m */; };
+		396F66F911D5EE2200B6AEED /* Ige.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396F66F711D5EE2200B6AEED /* Ige.xib */; };
+		396F671D11D5EF1400B6AEED /* Ige1.m in Sources */ = {isa = PBXBuildFile; fileRef = 396F671B11D5EF1400B6AEED /* Ige1.m */; };
+		396F671E11D5EF1400B6AEED /* Ige1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396F671C11D5EF1400B6AEED /* Ige1.xib */; };
+		396F674511D5F25400B6AEED /* Ige10.m in Sources */ = {isa = PBXBuildFile; fileRef = 396F674311D5F25400B6AEED /* Ige10.m */; };
+		396F674611D5F25400B6AEED /* Ige10.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396F674411D5F25400B6AEED /* Ige10.xib */; };
+		396F683611D60FA800B6AEED /* IgeOrt.m in Sources */ = {isa = PBXBuildFile; fileRef = 396F683411D60FA800B6AEED /* IgeOrt.m */; };
+		396F683711D60FA800B6AEED /* IgeOrt.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396F683511D60FA800B6AEED /* IgeOrt.xib */; };
+		396F68C911D61A8C00B6AEED /* Ige11.m in Sources */ = {isa = PBXBuildFile; fileRef = 396F68C711D61A8C00B6AEED /* Ige11.m */; };
+		396F68CA11D61A8C00B6AEED /* Ige11.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396F68C811D61A8C00B6AEED /* Ige11.xib */; };
+		396F694011D6279D00B6AEED /* Ige12.m in Sources */ = {isa = PBXBuildFile; fileRef = 396F693E11D6279D00B6AEED /* Ige12.m */; };
+		396F694111D6279D00B6AEED /* Ige12.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396F693F11D6279D00B6AEED /* Ige12.xib */; };
+		396F697C11D649F600B6AEED /* EinfuhrFrei.m in Sources */ = {isa = PBXBuildFile; fileRef = 396F697A11D649F600B6AEED /* EinfuhrFrei.m */; };
+		396F697D11D649F600B6AEED /* EinfuhrFrei.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396F697B11D649F600B6AEED /* EinfuhrFrei.xib */; };
+		396F69EA11D66AEC00B6AEED /* IgeFrei.m in Sources */ = {isa = PBXBuildFile; fileRef = 396F69E811D66AEC00B6AEED /* IgeFrei.m */; };
+		396F69EB11D66AEC00B6AEED /* IgeFrei.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396F69E911D66AEC00B6AEED /* IgeFrei.xib */; };
+		396F6A0711D66CBC00B6AEED /* IgeBMG.m in Sources */ = {isa = PBXBuildFile; fileRef = 396F6A0511D66CBC00B6AEED /* IgeBMG.m */; };
+		396F6A0811D66CBC00B6AEED /* IgeBMG.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396F6A0611D66CBC00B6AEED /* IgeBMG.xib */; };
+		39738DAF118E0F1E0072F4C5 /* Stufe31.m in Sources */ = {isa = PBXBuildFile; fileRef = 39738DAE118E0F1E0072F4C5 /* Stufe31.m */; };
+		39738DC4118E12BF0072F4C5 /* Stufe31.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39738DC3118E12BF0072F4C5 /* Stufe31.xib */; };
+		39738DF7118E18800072F4C5 /* Stufe310.m in Sources */ = {isa = PBXBuildFile; fileRef = 39738DF6118E18800072F4C5 /* Stufe310.m */; };
+		39738DF9118E19EF0072F4C5 /* Stufe310.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39738DF8118E19EF0072F4C5 /* Stufe310.xib */; };
+		39740EB011686C07006C8505 /* StartTVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39740EAF11686C07006C8505 /* StartTVController.m */; };
+		3977226711D0DA8E0043139B /* StartTVController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3977226611D0DA8E0043139B /* StartTVController.xib */; };
+		397790BD12637BA10027FFA3 /* Stufe15a.m in Sources */ = {isa = PBXBuildFile; fileRef = 397790BB12637BA10027FFA3 /* Stufe15a.m */; };
+		397790BE12637BA10027FFA3 /* Stufe15a.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397790BC12637BA10027FFA3 /* Stufe15a.xib */; };
+		397856FD126079D500BEF344 /* VorStBerichtigung.m in Sources */ = {isa = PBXBuildFile; fileRef = 397856FB126079D500BEF344 /* VorStBerichtigung.m */; };
+		397856FE126079D500BEF344 /* VorStBerichtigung.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397856FC126079D500BEF344 /* VorStBerichtigung.xib */; };
+		397BE14B11C4414100FEEB41 /* Categ4UIViewCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BE14A11C4414100FEEB41 /* Categ4UIViewCon.m */; };
+		397C7B021261C11D008B1560 /* Stufe17.m in Sources */ = {isa = PBXBuildFile; fileRef = 397C7B001261C11D008B1560 /* Stufe17.m */; };
+		397C7B031261C11D008B1560 /* Stufe17.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397C7B011261C11D008B1560 /* Stufe17.xib */; };
+		397E82FA11A93897001B13CD /* StufeFrei.m in Sources */ = {isa = PBXBuildFile; fileRef = 397E82F911A93897001B13CD /* StufeFrei.m */; };
+		397E82FC11A9390A001B13CD /* StufeFrei.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397E82FB11A9390A001B13CD /* StufeFrei.xib */; };
+		397E833211A94806001B13CD /* Stufe311.m in Sources */ = {isa = PBXBuildFile; fileRef = 397E833111A94806001B13CD /* Stufe311.m */; };
+		397E833411A94F9B001B13CD /* Stufe311.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397E833311A94F9B001B13CD /* Stufe311.xib */; };
+		397E839411A969DF001B13CD /* StufeOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 397E839311A969DF001B13CD /* StufeOption.m */; };
+		397E839611A96EB1001B13CD /* StufeOption.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397E839511A96EB1001B13CD /* StufeOption.xib */; };
+		397EDC4F118F4CC700C3F728 /* Stufe320.m in Sources */ = {isa = PBXBuildFile; fileRef = 397EDC4E118F4CC700C3F728 /* Stufe320.m */; };
+		397EDC55118F507100C3F728 /* Stufe320.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397EDC54118F507100C3F728 /* Stufe320.xib */; };
+		3981544E123011F000B4674C /* EinfuhrRechnung.m in Sources */ = {isa = PBXBuildFile; fileRef = 3981544C123011F000B4674C /* EinfuhrRechnung.m */; };
+		3981544F123011F000B4674C /* EinfuhrRechnung.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3981544D123011F000B4674C /* EinfuhrRechnung.xib */; };
+		398154601230178D00B4674C /* StufeRechnung1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3981545E1230178D00B4674C /* StufeRechnung1.m */; };
+		398154611230178D00B4674C /* StufeRechnung1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3981545F1230178D00B4674C /* StufeRechnung1.xib */; };
+		398154651230179800B4674C /* StufeRechnung2.m in Sources */ = {isa = PBXBuildFile; fileRef = 398154631230179800B4674C /* StufeRechnung2.m */; };
+		398154661230179800B4674C /* StufeRechnung2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 398154641230179800B4674C /* StufeRechnung2.xib */; };
+		39815475123017E000B4674C /* StufeRechnung3.m in Sources */ = {isa = PBXBuildFile; fileRef = 39815473123017E000B4674C /* StufeRechnung3.m */; };
+		39815476123017E000B4674C /* StufeRechnung3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39815474123017E000B4674C /* StufeRechnung3.xib */; };
+		398218CD11D91BBA00D55270 /* EinfuhrBMG.m in Sources */ = {isa = PBXBuildFile; fileRef = 398218CB11D91BBA00D55270 /* EinfuhrBMG.m */; };
+		398218CE11D91BBA00D55270 /* EinfuhrBMG.xib in Resources */ = {isa = PBXBuildFile; fileRef = 398218CC11D91BBA00D55270 /* EinfuhrBMG.xib */; };
+		398218EC11D92D3B00D55270 /* EinfuhrEntstehung.m in Sources */ = {isa = PBXBuildFile; fileRef = 398218EA11D92D3B00D55270 /* EinfuhrEntstehung.m */; };
+		398218ED11D92D3B00D55270 /* EinfuhrEntstehung.xib in Resources */ = {isa = PBXBuildFile; fileRef = 398218EB11D92D3B00D55270 /* EinfuhrEntstehung.xib */; };
+		3982195311D939B800D55270 /* EinfuhrSchuldner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3982195111D939B800D55270 /* EinfuhrSchuldner.m */; };
+		3982195411D939B800D55270 /* EinfuhrSchuldner.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3982195211D939B800D55270 /* EinfuhrSchuldner.xib */; };
+		3982197811D93D5E00D55270 /* IgeSchuldner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3982197611D93D5E00D55270 /* IgeSchuldner.m */; };
+		3982197911D93D5E00D55270 /* IgeSchuldner.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3982197711D93D5E00D55270 /* IgeSchuldner.xib */; };
+		39849AA91249209B0018829E /* MotionWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 39849AA81249209B0018829E /* MotionWindow.m */; };
+		3986B0E811F8D8F00031153E /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 3986B0E711F8D8F00031153E /* Icon-29.png */; };
+		3986B0EA11F8D9000031153E /* Icon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3986B0E911F8D9000031153E /* Icon-29@2x.png */; };
+		3986B0EC11F8D90E0031153E /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3986B0EB11F8D90E0031153E /* Icon-50.png */; };
+		3986B12B11F8E8E50031153E /* StufeRechnung.m in Sources */ = {isa = PBXBuildFile; fileRef = 3986B12911F8E8E50031153E /* StufeRechnung.m */; };
+		3986B12C11F8E8E50031153E /* StufeRechnung.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3986B12A11F8E8E50031153E /* StufeRechnung.xib */; };
+		3987DDF111C6C93D0003D95E /* StufeBMG2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3987DDEF11C6C93D0003D95E /* StufeBMG2.m */; };
+		3987DDF211C6C93D0003D95E /* StufeBMG2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3987DDF011C6C93D0003D95E /* StufeBMG2.xib */; };
+		399457A31175159F00CA1A11 /* StufeOLD.m in Sources */ = {isa = PBXBuildFile; fileRef = 399457A21175159F00CA1A11 /* StufeOLD.m */; };
+		3999FB8411A7DD30000DC678 /* StufeLS.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3999FB8311A7DD30000DC678 /* StufeLS.xib */; };
+		399ACF3E123EB0B20006474D /* EinfuhrVorSt.m in Sources */ = {isa = PBXBuildFile; fileRef = 399ACF3C123EB0B20006474D /* EinfuhrVorSt.m */; };
+		399ACF3F123EB0B20006474D /* EinfuhrVorSt.xib in Resources */ = {isa = PBXBuildFile; fileRef = 399ACF3D123EB0B20006474D /* EinfuhrVorSt.xib */; };
+		399ACF64123EB6A00006474D /* IgeVorSt.m in Sources */ = {isa = PBXBuildFile; fileRef = 399ACF62123EB6A00006474D /* IgeVorSt.m */; };
+		399ACF65123EB6A00006474D /* IgeVorSt.xib in Resources */ = {isa = PBXBuildFile; fileRef = 399ACF63123EB6A00006474D /* IgeVorSt.xib */; };
+		399FECB2123D091D00B0492E /* StufeVorSt.m in Sources */ = {isa = PBXBuildFile; fileRef = 399FECB0123D091D00B0492E /* StufeVorSt.m */; };
+		399FECB3123D091D00B0492E /* StufeVorSt.xib in Resources */ = {isa = PBXBuildFile; fileRef = 399FECB1123D091D00B0492E /* StufeVorSt.xib */; };
+		39A0E4A61188D2EC006F38F1 /* Stufe30.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39A0E4A51188D2EC006F38F1 /* Stufe30.xib */; };
+		39A0E4AE1188D5FD006F38F1 /* Stufe30.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A0E4AD1188D5FD006F38F1 /* Stufe30.m */; };
+		39CBF5CE117F4CAA00E3552D /* StufeBMG.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39CBF5CD117F4CAA00E3552D /* StufeBMG.xib */; };
+		39CBF5D4117F4D4800E3552D /* StufeBMG.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CBF5D3117F4D4800E3552D /* StufeBMG.m */; };
+		39DEFD5111BA8DFB001B938E /* ViewKFZ.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39DEFD5011BA8DFB001B938E /* ViewKFZ.xib */; };
+		39E0856B124FC63600BEE7E2 /* Info.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E08569124FC63600BEE7E2 /* Info.m */; };
+		39E0856C124FC63600BEE7E2 /* Info.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39E0856A124FC63600BEE7E2 /* Info.xib */; };
+		39E49A8211C8271E00561842 /* StufeEntstehung.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E49A8011C8271E00561842 /* StufeEntstehung.m */; };
+		39E49A8311C8271E00561842 /* StufeEntstehung.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39E49A8111C8271E00561842 /* StufeEntstehung.xib */; };
+		39EBCD25118F617B00053957 /* Stufe3200.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39EBCD24118F617B00053957 /* Stufe3200.xib */; };
+		65B121E816C6E5EF00CA971F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B121E716C6E5EF00CA971F /* Default-568h@2x.png */; };
+		65BB17BC16C6F59300A0443E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65BB17BB16C6F59300A0443E /* Default@2x.png */; };
+		65DB3E351EB5DA1800FDA5DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65DB3E341EB5DA1800FDA5DD /* Images.xcassets */; };
+		65DB3E371EB60ED800FDA5DD /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65DB3E361EB60ED800FDA5DD /* icon-60@2x.png */; };
+		65DB3E3B1EB6112D00FDA5DD /* Launch750x1334.png in Resources */ = {isa = PBXBuildFile; fileRef = 65DB3E3A1EB6112D00FDA5DD /* Launch750x1334.png */; };
+		65DB3E3D1EB611FF00FDA5DD /* Launch1242x2208.png in Resources */ = {isa = PBXBuildFile; fileRef = 65DB3E3C1EB611FF00FDA5DD /* Launch1242x2208.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* UStAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UStAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* UStAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UStAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Umsatzsteuer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Umsatzsteuer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C3AD890F43EF2300507BA6 /* USt.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = USt.xcdatamodel; sourceTree = "<group>"; };
+		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* USt_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USt_Prefix.pch; sourceTree = "<group>"; };
+		3903289211F794CE001F4B08 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		39070BD111F5DDEE00E50839 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		3909084F125D315300884741 /* IgeRechnung.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IgeRechnung.h; sourceTree = "<group>"; };
+		39090850125D315300884741 /* IgeRechnung.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IgeRechnung.m; sourceTree = "<group>"; };
+		39090851125D315300884741 /* IgeRechnung.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = IgeRechnung.xib; path = Classes/IgeRechnung.xib; sourceTree = "<group>"; };
+		3910F0FE11BB0CF800352EE3 /* Kfz_Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Kfz_Controller.m; path = ../Kfz_Controller.m; sourceTree = "<group>"; };
+		3910F0FF11BB0CF800352EE3 /* Kfz_Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Kfz_Controller.h; path = ../Kfz_Controller.h; sourceTree = "<group>"; };
+		3911D7AF11A5689200975B7B /* Stufe33.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stufe33.h; sourceTree = "<group>"; };
+		3911D7B011A5689200975B7B /* Stufe33.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stufe33.m; sourceTree = "<group>"; };
+		3911D7BA11A5695800975B7B /* Stufe33.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Stufe33.xib; path = Classes/Stufe33.xib; sourceTree = "<group>"; };
+		3911D80311A5702500975B7B /* Stufe34.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stufe34.h; sourceTree = "<group>"; };
+		3911D80411A5702500975B7B /* Stufe34.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stufe34.m; sourceTree = "<group>"; };
+		3911D80611A5703D00975B7B /* Stufe34.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Stufe34.xib; sourceTree = "<group>"; };
+		3911D90C11A7DAD400975B7B /* StufeLS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StufeLS.h; sourceTree = "<group>"; };
+		3911D90D11A7DAD400975B7B /* StufeLS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StufeLS.m; sourceTree = "<group>"; };
+		3914244011F4C78100D1E9E3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		3914244211F4C78E00D1E9E3 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		3914244411F4C79B00D1E9E3 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		3916AF81116A9C0E00354C30 /* Stufe21.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Stufe21.xib; path = Classes/Stufe21.xib; sourceTree = "<group>"; };
+		392AEC8E1202325B00A036D4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		392C59EE1180A65A00860526 /* Stufe20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stufe20.h; sourceTree = "<group>"; };
+		392C59EF1180A65A00860526 /* Stufe20.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stufe20.m; sourceTree = "<group>"; };
+		392C59F71180A6DB00860526 /* Stufe20.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Stufe20.xib; sourceTree = "<group>"; };
+		3939F979118F5DF700742AB2 /* Stufe3200.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stufe3200.h; sourceTree = "<group>"; };
+		3939F97A118F5DF700742AB2 /* Stufe3200.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stufe3200.m; sourceTree = "<group>"; };
+		394141FF124EA69200D093D5 /* EinfuhrResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EinfuhrResult.h; sourceTree = "<group>"; };
+		39414200124EA69200D093D5 /* EinfuhrResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EinfuhrResult.m; sourceTree = "<group>"; };
+		39414201124EA69200D093D5 /* EinfuhrResult.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = EinfuhrResult.xib; path = Classes/EinfuhrResult.xib; sourceTree = "<group>"; };
+		39414215124EAB5B00D093D5 /* IgeResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IgeResult.h; sourceTree = "<group>"; };
+		39414216124EAB5B00D093D5 /* IgeResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IgeResult.m; sourceTree = "<group>"; };
+		39414217124EAB5B00D093D5 /* IgeResult.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = IgeResult.xib; path = Classes/IgeResult.xib; sourceTree = "<group>"; };
+		39662EC41249583000CEF95A /* Result.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Result.h; sourceTree = "<group>"; };
+		39662EC51249583000CEF95A /* Result.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Result.m; sourceTree = "<group>"; };
+		39662EC61249583000CEF95A /* Result.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Result.xib; path = Classes/Result.xib; sourceTree = "<group>"; };
+		39678DB511C81812008C7A1E /* StufeSteuersatz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StufeSteuersatz.h; sourceTree = "<group>"; };
+		39678DB611C81812008C7A1E /* StufeSteuersatz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StufeSteuersatz.m; sourceTree = "<group>"; };
+		39678DB711C81812008C7A1E /* StufeSteuersatz.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StufeSteuersatz.xib; path = Classes/StufeSteuersatz.xib; sourceTree = "<group>"; };
+		39692303118EB0C500570852 /* Stufe32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stufe32.h; sourceTree = "<group>"; };
+		39692304118EB0C500570852 /* Stufe32.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stufe32.m; sourceTree = "<group>"; };
+		39692308118EB38900570852 /* Stufe32.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Stufe32.xib; sourceTree = "<group>"; };
+		3969877911D53F380096157B /* Stufe20a.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stufe20a.h; sourceTree = "<group>"; };
+		3969877A11D53F380096157B /* Stufe20a.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stufe20a.m; sourceTree = "<group>"; };
+		3969877B11D53F380096157B /* Stufe20a.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Stufe20a.xib; path = Classes/Stufe20a.xib; sourceTree = "<group>"; };
+		3969885B11D5648C0096157B /* Einfuhr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Einfuhr.h; sourceTree = "<group>"; };
+		3969885C11D5648C0096157B /* Einfuhr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Einfuhr.m; sourceTree = "<group>"; };
+		3969885D11D5648C0096157B /* Einfuhr.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Einfuhr.xib; path = Classes/Einfuhr.xib; sourceTree = "<group>"; };
+		3969888411D56C300096157B /* Einfuhr1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Einfuhr1.h; sourceTree = "<group>"; };
+		3969888511D56C300096157B /* Einfuhr1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Einfuhr1.m; sourceTree = "<group>"; };
+		3969888611D56C300096157B /* Einfuhr1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Einfuhr1.xib; path = Classes/Einfuhr1.xib; sourceTree = "<group>"; };
+		396AC15911D7DC1E00D90152 /* StufeEntstehung2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StufeEntstehung2.h; sourceTree = "<group>"; };
+		396AC15A11D7DC1E00D90152 /* StufeEntstehung2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StufeEntstehung2.m; sourceTree = "<group>"; };
+		396AC15B11D7DC1E00D90152 /* StufeEntstehung2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StufeEntstehung2.xib; path = Classes/StufeEntstehung2.xib; sourceTree = "<group>"; };
+		396AC17A11D7E09900D90152 /* VAZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAZ.h; sourceTree = "<group>"; };
+		396AC17B11D7E09900D90152 /* VAZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAZ.m; sourceTree = "<group>"; };
+		396AC17C11D7E09900D90152 /* VAZ.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = VAZ.xib; path = Classes/VAZ.xib; sourceTree = "<group>"; };
+		396AC1B911D7E95400D90152 /* StufeAntragIst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StufeAntragIst.h; sourceTree = "<group>"; };
+		396AC1BA11D7E95400D90152 /* StufeAntragIst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StufeAntragIst.m; sourceTree = "<group>"; };
+		396AC1BB11D7E95400D90152 /* StufeAntragIst.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StufeAntragIst.xib; path = Classes/StufeAntragIst.xib; sourceTree = "<group>"; };
+		396AC22111D802F800D90152 /* IgeEntstehung.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IgeEntstehung.h; sourceTree = "<group>"; };
+		396AC22211D802F800D90152 /* IgeEntstehung.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IgeEntstehung.m; sourceTree = "<group>"; };
+		396AC22311D802F800D90152 /* IgeEntstehung.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = IgeEntstehung.xib; path = Classes/IgeEntstehung.xib; sourceTree = "<group>"; };
+		396CFBBB11DA2AD1005C014F /* StufeSchuldner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StufeSchuldner.h; sourceTree = "<group>"; };
+		396CFBBC11DA2AD1005C014F /* StufeSchuldner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StufeSchuldner.m; sourceTree = "<group>"; };
+		396CFBBD11DA2AD1005C014F /* StufeSchuldner.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StufeSchuldner.xib; path = Classes/StufeSchuldner.xib; sourceTree = "<group>"; };
+		396CFFF911DA6D9B0025C712 /* Stufe13b.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stufe13b.h; sourceTree = "<group>"; };
+		396CFFFA11DA6D9B0025C712 /* Stufe13b.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stufe13b.m; sourceTree = "<group>"; };
+		396CFFFB11DA6D9B0025C712 /* Stufe13b.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Stufe13b.xib; path = Classes/Stufe13b.xib; sourceTree = "<group>"; };
+		396E210F1258EE58002266EF /* Changes.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Changes.rtf; sourceTree = "<group>"; };
+		396EC86511D1622C00734697 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		396EC86611D1622C00734697 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		396EE96311D0D7530029FE72 /* UmsatzArten.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UmsatzArten.h; sourceTree = "<group>"; };
+		396EE96411D0D7530029FE72 /* UmsatzArten.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UmsatzArten.m; sourceTree = "<group>"; };
+		396EE96511D0D7530029FE72 /* UmsatzArten.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = UmsatzArten.xib; path = Classes/UmsatzArten.xib; sourceTree = "<group>"; };
+		396F66F511D5EE2200B6AEED /* Ige.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ige.h; sourceTree = "<group>"; };
+		396F66F611D5EE2200B6AEED /* Ige.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ige.m; sourceTree = "<group>"; };
+		396F66F711D5EE2200B6AEED /* Ige.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Ige.xib; path = Classes/Ige.xib; sourceTree = "<group>"; };
+		396F671A11D5EF1400B6AEED /* Ige1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ige1.h; sourceTree = "<group>"; };
+		396F671B11D5EF1400B6AEED /* Ige1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ige1.m; sourceTree = "<group>"; };
+		396F671C11D5EF1400B6AEED /* Ige1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Ige1.xib; path = Classes/Ige1.xib; sourceTree = "<group>"; };
+		396F674211D5F25400B6AEED /* Ige10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ige10.h; sourceTree = "<group>"; };
+		396F674311D5F25400B6AEED /* Ige10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ige10.m; sourceTree = "<group>"; };
+		396F674411D5F25400B6AEED /* Ige10.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Ige10.xib; path = Classes/Ige10.xib; sourceTree = "<group>"; };
+		396F683311D60FA800B6AEED /* IgeOrt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IgeOrt.h; sourceTree = "<group>"; };
+		396F683411D60FA800B6AEED /* IgeOrt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IgeOrt.m; sourceTree = "<group>"; };
+		396F683511D60FA800B6AEED /* IgeOrt.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = IgeOrt.xib; path = Classes/IgeOrt.xib; sourceTree = "<group>"; };
+		396F68C611D61A8C00B6AEED /* Ige11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ige11.h; sourceTree = "<group>"; };
+		396F68C711D61A8C00B6AEED /* Ige11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ige11.m; sourceTree = "<group>"; };
+		396F68C811D61A8C00B6AEED /* Ige11.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Ige11.xib; path = Classes/Ige11.xib; sourceTree = "<group>"; };
+		396F693D11D6279D00B6AEED /* Ige12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ige12.h; sourceTree = "<group>"; };
+		396F693E11D6279D00B6AEED /* Ige12.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ige12.m; sourceTree = "<group>"; };
+		396F693F11D6279D00B6AEED /* Ige12.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Ige12.xib; path = Classes/Ige12.xib; sourceTree = "<group>"; };
+		396F697911D649F500B6AEED /* EinfuhrFrei.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EinfuhrFrei.h; sourceTree = "<group>"; };
+		396F697A11D649F600B6AEED /* EinfuhrFrei.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EinfuhrFrei.m; sourceTree = "<group>"; };
+		396F697B11D649F600B6AEED /* EinfuhrFrei.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = EinfuhrFrei.xib; path = Classes/EinfuhrFrei.xib; sourceTree = "<group>"; };
+		396F69E711D66AEC00B6AEED /* IgeFrei.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IgeFrei.h; sourceTree = "<group>"; };
+		396F69E811D66AEC00B6AEED /* IgeFrei.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IgeFrei.m; sourceTree = "<group>"; };
+		396F69E911D66AEC00B6AEED /* IgeFrei.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = IgeFrei.xib; path = Classes/IgeFrei.xib; sourceTree = "<group>"; };
+		396F6A0411D66CBC00B6AEED /* IgeBMG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IgeBMG.h; sourceTree = "<group>"; };
+		396F6A0511D66CBC00B6AEED /* IgeBMG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IgeBMG.m; sourceTree = "<group>"; };
+		396F6A0611D66CBC00B6AEED /* IgeBMG.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = IgeBMG.xib; path = Classes/IgeBMG.xib; sourceTree = "<group>"; };
+		39738DAD118E0F1E0072F4C5 /* Stufe31.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stufe31.h; sourceTree = "<group>"; };
+		39738DAE118E0F1E0072F4C5 /* Stufe31.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stufe31.m; sourceTree = "<group>"; };
+		39738DC3118E12BF0072F4C5 /* Stufe31.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Stufe31.xib; sourceTree = "<group>"; };
+		39738DF5118E18800072F4C5 /* Stufe310.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stufe310.h; sourceTree = "<group>"; };
+		39738DF6118E18800072F4C5 /* Stufe310.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stufe310.m; sourceTree = "<group>"; };
+		39738DF8118E19EF0072F4C5 /* Stufe310.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Stufe310.xib; sourceTree = "<group>"; };
+		39740EAE11686C07006C8505 /* StartTVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartTVController.h; path = ../StartTVController.h; sourceTree = "<group>"; };
+		39740EAF11686C07006C8505 /* StartTVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StartTVController.m; path = ../StartTVController.m; sourceTree = "<group>"; };
+		3977226611D0DA8E0043139B /* StartTVController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StartTVController.xib; path = Classes/StartTVController.xib; sourceTree = "<group>"; };
+		397790BA12637BA10027FFA3 /* Stufe15a.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stufe15a.h; sourceTree = "<group>"; };
+		397790BB12637BA10027FFA3 /* Stufe15a.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stufe15a.m; sourceTree = "<group>"; };
+		397790BC12637BA10027FFA3 /* Stufe15a.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Stufe15a.xib; path = Classes/Stufe15a.xib; sourceTree = "<group>"; };
+		397856FA126079D500BEF344 /* VorStBerichtigung.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VorStBerichtigung.h; sourceTree = "<group>"; };
+		397856FB126079D500BEF344 /* VorStBerichtigung.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VorStBerichtigung.m; sourceTree = "<group>"; };
+		397856FC126079D500BEF344 /* VorStBerichtigung.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = VorStBerichtigung.xib; path = Classes/VorStBerichtigung.xib; sourceTree = "<group>"; };
+		397BE14911C4414100FEEB41 /* Categ4UIViewCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categ4UIViewCon.h; sourceTree = "<group>"; };
+		397BE14A11C4414100FEEB41 /* Categ4UIViewCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Categ4UIViewCon.m; sourceTree = "<group>"; };
+		397C7AFF1261C11D008B1560 /* Stufe17.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stufe17.h; sourceTree = "<group>"; };
+		397C7B001261C11D008B1560 /* Stufe17.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stufe17.m; sourceTree = "<group>"; };
+		397C7B011261C11D008B1560 /* Stufe17.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Stufe17.xib; path = Classes/Stufe17.xib; sourceTree = "<group>"; };
+		397E82F811A93897001B13CD /* StufeFrei.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StufeFrei.h; sourceTree = "<group>"; };
+		397E82F911A93897001B13CD /* StufeFrei.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StufeFrei.m; sourceTree = "<group>"; };
+		397E82FB11A9390A001B13CD /* StufeFrei.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StufeFrei.xib; sourceTree = "<group>"; };
+		397E833011A94806001B13CD /* Stufe311.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stufe311.h; sourceTree = "<group>"; };
+		397E833111A94806001B13CD /* Stufe311.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stufe311.m; sourceTree = "<group>"; };
+		397E833311A94F9B001B13CD /* Stufe311.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Stufe311.xib; sourceTree = "<group>"; };
+		397E839211A969DF001B13CD /* StufeOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StufeOption.h; sourceTree = "<group>"; };
+		397E839311A969DF001B13CD /* StufeOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StufeOption.m; sourceTree = "<group>"; };
+		397E839511A96EB1001B13CD /* StufeOption.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StufeOption.xib; sourceTree = "<group>"; };
+		397EDC4D118F4CC700C3F728 /* Stufe320.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stufe320.h; sourceTree = "<group>"; };
+		397EDC4E118F4CC700C3F728 /* Stufe320.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stufe320.m; sourceTree = "<group>"; };
+		397EDC54118F507100C3F728 /* Stufe320.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Stufe320.xib; sourceTree = "<group>"; };
+		3981544B123011F000B4674C /* EinfuhrRechnung.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EinfuhrRechnung.h; sourceTree = "<group>"; };
+		3981544C123011F000B4674C /* EinfuhrRechnung.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EinfuhrRechnung.m; sourceTree = "<group>"; };
+		3981544D123011F000B4674C /* EinfuhrRechnung.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = EinfuhrRechnung.xib; path = Classes/EinfuhrRechnung.xib; sourceTree = "<group>"; };
+		3981545D1230178D00B4674C /* StufeRechnung1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StufeRechnung1.h; sourceTree = "<group>"; };
+		3981545E1230178D00B4674C /* StufeRechnung1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StufeRechnung1.m; sourceTree = "<group>"; };
+		3981545F1230178D00B4674C /* StufeRechnung1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StufeRechnung1.xib; path = Classes/StufeRechnung1.xib; sourceTree = "<group>"; };
+		398154621230179800B4674C /* StufeRechnung2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StufeRechnung2.h; sourceTree = "<group>"; };
+		398154631230179800B4674C /* StufeRechnung2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StufeRechnung2.m; sourceTree = "<group>"; };
+		398154641230179800B4674C /* StufeRechnung2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StufeRechnung2.xib; path = Classes/StufeRechnung2.xib; sourceTree = "<group>"; };
+		39815472123017E000B4674C /* StufeRechnung3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StufeRechnung3.h; sourceTree = "<group>"; };
+		39815473123017E000B4674C /* StufeRechnung3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StufeRechnung3.m; sourceTree = "<group>"; };
+		39815474123017E000B4674C /* StufeRechnung3.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StufeRechnung3.xib; path = Classes/StufeRechnung3.xib; sourceTree = "<group>"; };
+		398218CA11D91BB900D55270 /* EinfuhrBMG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EinfuhrBMG.h; sourceTree = "<group>"; };
+		398218CB11D91BBA00D55270 /* EinfuhrBMG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EinfuhrBMG.m; sourceTree = "<group>"; };
+		398218CC11D91BBA00D55270 /* EinfuhrBMG.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = EinfuhrBMG.xib; path = Classes/EinfuhrBMG.xib; sourceTree = "<group>"; };
+		398218E911D92D3B00D55270 /* EinfuhrEntstehung.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EinfuhrEntstehung.h; sourceTree = "<group>"; };
+		398218EA11D92D3B00D55270 /* EinfuhrEntstehung.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EinfuhrEntstehung.m; sourceTree = "<group>"; };
+		398218EB11D92D3B00D55270 /* EinfuhrEntstehung.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = EinfuhrEntstehung.xib; path = Classes/EinfuhrEntstehung.xib; sourceTree = "<group>"; };
+		3982195011D939B800D55270 /* EinfuhrSchuldner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EinfuhrSchuldner.h; sourceTree = "<group>"; };
+		3982195111D939B800D55270 /* EinfuhrSchuldner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EinfuhrSchuldner.m; sourceTree = "<group>"; };
+		3982195211D939B800D55270 /* EinfuhrSchuldner.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = EinfuhrSchuldner.xib; path = Classes/EinfuhrSchuldner.xib; sourceTree = "<group>"; };
+		3982197511D93D5E00D55270 /* IgeSchuldner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IgeSchuldner.h; sourceTree = "<group>"; };
+		3982197611D93D5E00D55270 /* IgeSchuldner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IgeSchuldner.m; sourceTree = "<group>"; };
+		3982197711D93D5E00D55270 /* IgeSchuldner.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = IgeSchuldner.xib; path = Classes/IgeSchuldner.xib; sourceTree = "<group>"; };
+		39849AA71249209B0018829E /* MotionWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionWindow.h; sourceTree = "<group>"; };
+		39849AA81249209B0018829E /* MotionWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionWindow.m; sourceTree = "<group>"; };
+		3986B0E711F8D8F00031153E /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
+		3986B0E911F8D9000031153E /* Icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29@2x.png"; sourceTree = "<group>"; };
+		3986B0EB11F8D90E0031153E /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
+		3986B12811F8E8E50031153E /* StufeRechnung.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StufeRechnung.h; sourceTree = "<group>"; };
+		3986B12911F8E8E50031153E /* StufeRechnung.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StufeRechnung.m; sourceTree = "<group>"; };
+		3986B12A11F8E8E50031153E /* StufeRechnung.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StufeRechnung.xib; path = Classes/StufeRechnung.xib; sourceTree = "<group>"; };
+		3987DDEE11C6C93D0003D95E /* StufeBMG2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StufeBMG2.h; sourceTree = "<group>"; };
+		3987DDEF11C6C93D0003D95E /* StufeBMG2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StufeBMG2.m; sourceTree = "<group>"; };
+		3987DDF011C6C93D0003D95E /* StufeBMG2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StufeBMG2.xib; path = Classes/StufeBMG2.xib; sourceTree = "<group>"; };
+		399457A11175159F00CA1A11 /* StufeOLD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StufeOLD.h; sourceTree = "<group>"; };
+		399457A21175159F00CA1A11 /* StufeOLD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StufeOLD.m; sourceTree = "<group>"; };
+		3999FB8311A7DD30000DC678 /* StufeLS.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StufeLS.xib; sourceTree = "<group>"; };
+		399ACF3B123EB0B20006474D /* EinfuhrVorSt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EinfuhrVorSt.h; sourceTree = "<group>"; };
+		399ACF3C123EB0B20006474D /* EinfuhrVorSt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EinfuhrVorSt.m; sourceTree = "<group>"; };
+		399ACF3D123EB0B20006474D /* EinfuhrVorSt.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = EinfuhrVorSt.xib; path = Classes/EinfuhrVorSt.xib; sourceTree = "<group>"; };
+		399ACF61123EB6A00006474D /* IgeVorSt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IgeVorSt.h; sourceTree = "<group>"; };
+		399ACF62123EB6A00006474D /* IgeVorSt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IgeVorSt.m; sourceTree = "<group>"; };
+		399ACF63123EB6A00006474D /* IgeVorSt.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = IgeVorSt.xib; path = Classes/IgeVorSt.xib; sourceTree = "<group>"; };
+		399FECAF123D091D00B0492E /* StufeVorSt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StufeVorSt.h; sourceTree = "<group>"; };
+		399FECB0123D091D00B0492E /* StufeVorSt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StufeVorSt.m; sourceTree = "<group>"; };
+		399FECB1123D091D00B0492E /* StufeVorSt.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StufeVorSt.xib; path = Classes/StufeVorSt.xib; sourceTree = "<group>"; };
+		39A0E4A51188D2EC006F38F1 /* Stufe30.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Stufe30.xib; sourceTree = "<group>"; };
+		39A0E4AC1188D5FD006F38F1 /* Stufe30.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stufe30.h; sourceTree = "<group>"; };
+		39A0E4AD1188D5FD006F38F1 /* Stufe30.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stufe30.m; sourceTree = "<group>"; };
+		39CBF5CD117F4CAA00E3552D /* StufeBMG.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StufeBMG.xib; sourceTree = "<group>"; };
+		39CBF5D2117F4D4800E3552D /* StufeBMG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StufeBMG.h; sourceTree = "<group>"; };
+		39CBF5D3117F4D4800E3552D /* StufeBMG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StufeBMG.m; sourceTree = "<group>"; };
+		39DEFD5011BA8DFB001B938E /* ViewKFZ.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewKFZ.xib; sourceTree = "<group>"; };
+		39E08568124FC63600BEE7E2 /* Info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Info.h; sourceTree = "<group>"; };
+		39E08569124FC63600BEE7E2 /* Info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Info.m; sourceTree = "<group>"; };
+		39E0856A124FC63600BEE7E2 /* Info.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Info.xib; path = Classes/Info.xib; sourceTree = "<group>"; };
+		39E49A7F11C8271E00561842 /* StufeEntstehung.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StufeEntstehung.h; sourceTree = "<group>"; };
+		39E49A8011C8271E00561842 /* StufeEntstehung.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StufeEntstehung.m; sourceTree = "<group>"; };
+		39E49A8111C8271E00561842 /* StufeEntstehung.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StufeEntstehung.xib; path = Classes/StufeEntstehung.xib; sourceTree = "<group>"; };
+		39EBCD24118F617B00053957 /* Stufe3200.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Stufe3200.xib; sourceTree = "<group>"; };
+		65B121E716C6E5EF00CA971F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		65BB17BB16C6F59300A0443E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		65DB3E341EB5DA1800FDA5DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = USt/Images.xcassets; sourceTree = "<group>"; };
+		65DB3E361EB60ED800FDA5DD /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@2x.png"; sourceTree = "<group>"; };
+		65DB3E3A1EB6112D00FDA5DD /* Launch750x1334.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch750x1334.png; sourceTree = "<group>"; };
+		65DB3E3C1EB611FF00FDA5DD /* Launch1242x2208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch1242x2208.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* USt-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "USt-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				39E08568124FC63600BEE7E2 /* Info.h */,
+				39E08569124FC63600BEE7E2 /* Info.m */,
+				396EC86511D1622C00734697 /* Data.h */,
+				396EC86611D1622C00734697 /* Data.m */,
+				396EE96311D0D7530029FE72 /* UmsatzArten.h */,
+				396EE96411D0D7530029FE72 /* UmsatzArten.m */,
+				397BE14911C4414100FEEB41 /* Categ4UIViewCon.h */,
+				397BE14A11C4414100FEEB41 /* Categ4UIViewCon.m */,
+				39740EAE11686C07006C8505 /* StartTVController.h */,
+				39740EAF11686C07006C8505 /* StartTVController.m */,
+				3969885B11D5648C0096157B /* Einfuhr.h */,
+				3969885C11D5648C0096157B /* Einfuhr.m */,
+				3969888411D56C300096157B /* Einfuhr1.h */,
+				3969888511D56C300096157B /* Einfuhr1.m */,
+				396F697911D649F500B6AEED /* EinfuhrFrei.h */,
+				396F697A11D649F600B6AEED /* EinfuhrFrei.m */,
+				398218CA11D91BB900D55270 /* EinfuhrBMG.h */,
+				398218CB11D91BBA00D55270 /* EinfuhrBMG.m */,
+				398218E911D92D3B00D55270 /* EinfuhrEntstehung.h */,
+				398218EA11D92D3B00D55270 /* EinfuhrEntstehung.m */,
+				3982195011D939B800D55270 /* EinfuhrSchuldner.h */,
+				3982195111D939B800D55270 /* EinfuhrSchuldner.m */,
+				3981544B123011F000B4674C /* EinfuhrRechnung.h */,
+				3981544C123011F000B4674C /* EinfuhrRechnung.m */,
+				399ACF3B123EB0B20006474D /* EinfuhrVorSt.h */,
+				399ACF3C123EB0B20006474D /* EinfuhrVorSt.m */,
+				394141FF124EA69200D093D5 /* EinfuhrResult.h */,
+				39414200124EA69200D093D5 /* EinfuhrResult.m */,
+				396F66F511D5EE2200B6AEED /* Ige.h */,
+				396F66F611D5EE2200B6AEED /* Ige.m */,
+				396F671A11D5EF1400B6AEED /* Ige1.h */,
+				396F671B11D5EF1400B6AEED /* Ige1.m */,
+				396F674211D5F25400B6AEED /* Ige10.h */,
+				396F674311D5F25400B6AEED /* Ige10.m */,
+				396F68C611D61A8C00B6AEED /* Ige11.h */,
+				396F68C711D61A8C00B6AEED /* Ige11.m */,
+				396F693D11D6279D00B6AEED /* Ige12.h */,
+				396F693E11D6279D00B6AEED /* Ige12.m */,
+				396F683311D60FA800B6AEED /* IgeOrt.h */,
+				396F683411D60FA800B6AEED /* IgeOrt.m */,
+				396F69E711D66AEC00B6AEED /* IgeFrei.h */,
+				396F69E811D66AEC00B6AEED /* IgeFrei.m */,
+				396F6A0411D66CBC00B6AEED /* IgeBMG.h */,
+				396F6A0511D66CBC00B6AEED /* IgeBMG.m */,
+				396AC22111D802F800D90152 /* IgeEntstehung.h */,
+				396AC22211D802F800D90152 /* IgeEntstehung.m */,
+				3982197511D93D5E00D55270 /* IgeSchuldner.h */,
+				3982197611D93D5E00D55270 /* IgeSchuldner.m */,
+				3909084F125D315300884741 /* IgeRechnung.h */,
+				39090850125D315300884741 /* IgeRechnung.m */,
+				399ACF61123EB6A00006474D /* IgeVorSt.h */,
+				399ACF62123EB6A00006474D /* IgeVorSt.m */,
+				39414215124EAB5B00D093D5 /* IgeResult.h */,
+				39414216124EAB5B00D093D5 /* IgeResult.m */,
+				39849AA71249209B0018829E /* MotionWindow.h */,
+				39849AA81249209B0018829E /* MotionWindow.m */,
+				1D3623240D0F684500981E51 /* UStAppDelegate.h */,
+				1D3623250D0F684500981E51 /* UStAppDelegate.m */,
+				392C59EE1180A65A00860526 /* Stufe20.h */,
+				392C59EF1180A65A00860526 /* Stufe20.m */,
+				3969877911D53F380096157B /* Stufe20a.h */,
+				3969877A11D53F380096157B /* Stufe20a.m */,
+				39A0E4AC1188D5FD006F38F1 /* Stufe30.h */,
+				39A0E4AD1188D5FD006F38F1 /* Stufe30.m */,
+				39738DAD118E0F1E0072F4C5 /* Stufe31.h */,
+				39738DAE118E0F1E0072F4C5 /* Stufe31.m */,
+				39738DF5118E18800072F4C5 /* Stufe310.h */,
+				39738DF6118E18800072F4C5 /* Stufe310.m */,
+				397E833011A94806001B13CD /* Stufe311.h */,
+				397E833111A94806001B13CD /* Stufe311.m */,
+				39692303118EB0C500570852 /* Stufe32.h */,
+				39692304118EB0C500570852 /* Stufe32.m */,
+				397EDC4D118F4CC700C3F728 /* Stufe320.h */,
+				397EDC4E118F4CC700C3F728 /* Stufe320.m */,
+				3939F979118F5DF700742AB2 /* Stufe3200.h */,
+				3939F97A118F5DF700742AB2 /* Stufe3200.m */,
+				3911D90C11A7DAD400975B7B /* StufeLS.h */,
+				3911D90D11A7DAD400975B7B /* StufeLS.m */,
+				397E82F811A93897001B13CD /* StufeFrei.h */,
+				397E82F911A93897001B13CD /* StufeFrei.m */,
+				397E839211A969DF001B13CD /* StufeOption.h */,
+				397E839311A969DF001B13CD /* StufeOption.m */,
+				3911D7AF11A5689200975B7B /* Stufe33.h */,
+				3911D7B011A5689200975B7B /* Stufe33.m */,
+				3911D80311A5702500975B7B /* Stufe34.h */,
+				3911D80411A5702500975B7B /* Stufe34.m */,
+				399457A11175159F00CA1A11 /* StufeOLD.h */,
+				399457A21175159F00CA1A11 /* StufeOLD.m */,
+				39CBF5D2117F4D4800E3552D /* StufeBMG.h */,
+				39CBF5D3117F4D4800E3552D /* StufeBMG.m */,
+				3987DDEE11C6C93D0003D95E /* StufeBMG2.h */,
+				3987DDEF11C6C93D0003D95E /* StufeBMG2.m */,
+				3910F0FF11BB0CF800352EE3 /* Kfz_Controller.h */,
+				3910F0FE11BB0CF800352EE3 /* Kfz_Controller.m */,
+				39678DB511C81812008C7A1E /* StufeSteuersatz.h */,
+				39678DB611C81812008C7A1E /* StufeSteuersatz.m */,
+				39E49A7F11C8271E00561842 /* StufeEntstehung.h */,
+				39E49A8011C8271E00561842 /* StufeEntstehung.m */,
+				396AC15911D7DC1E00D90152 /* StufeEntstehung2.h */,
+				396AC15A11D7DC1E00D90152 /* StufeEntstehung2.m */,
+				396AC1B911D7E95400D90152 /* StufeAntragIst.h */,
+				396AC1BA11D7E95400D90152 /* StufeAntragIst.m */,
+				396AC17A11D7E09900D90152 /* VAZ.h */,
+				396AC17B11D7E09900D90152 /* VAZ.m */,
+				396CFBBB11DA2AD1005C014F /* StufeSchuldner.h */,
+				396CFBBC11DA2AD1005C014F /* StufeSchuldner.m */,
+				396CFFF911DA6D9B0025C712 /* Stufe13b.h */,
+				396CFFFA11DA6D9B0025C712 /* Stufe13b.m */,
+				3986B12811F8E8E50031153E /* StufeRechnung.h */,
+				3986B12911F8E8E50031153E /* StufeRechnung.m */,
+				3981545D1230178D00B4674C /* StufeRechnung1.h */,
+				3981545E1230178D00B4674C /* StufeRechnung1.m */,
+				398154621230179800B4674C /* StufeRechnung2.h */,
+				398154631230179800B4674C /* StufeRechnung2.m */,
+				39815472123017E000B4674C /* StufeRechnung3.h */,
+				39815473123017E000B4674C /* StufeRechnung3.m */,
+				399FECAF123D091D00B0492E /* StufeVorSt.h */,
+				399FECB0123D091D00B0492E /* StufeVorSt.m */,
+				39662EC41249583000CEF95A /* Result.h */,
+				39662EC51249583000CEF95A /* Result.m */,
+				397856FA126079D500BEF344 /* VorStBerichtigung.h */,
+				397856FB126079D500BEF344 /* VorStBerichtigung.m */,
+				397790BA12637BA10027FFA3 /* Stufe15a.h */,
+				397790BB12637BA10027FFA3 /* Stufe15a.m */,
+				397C7AFF1261C11D008B1560 /* Stufe17.h */,
+				397C7B001261C11D008B1560 /* Stufe17.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Umsatzsteuer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* USt_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				396E210F1258EE58002266EF /* Changes.rtf */,
+				3903289211F794CE001F4B08 /* Settings.bundle */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				65DB3E341EB5DA1800FDA5DD /* Images.xcassets */,
+				65DB3E3A1EB6112D00FDA5DD /* Launch750x1334.png */,
+				65DB3E3C1EB611FF00FDA5DD /* Launch1242x2208.png */,
+				65DB3E361EB60ED800FDA5DD /* icon-60@2x.png */,
+				3986B0EB11F8D90E0031153E /* Icon-50.png */,
+				3986B0E911F8D9000031153E /* Icon-29@2x.png */,
+				3986B0E711F8D8F00031153E /* Icon-29.png */,
+				39070BD111F5DDEE00E50839 /* iTunesArtwork */,
+				3914244411F4C79B00D1E9E3 /* Icon-72.png */,
+				3914244211F4C78E00D1E9E3 /* Icon@2x.png */,
+				3914244011F4C78100D1E9E3 /* Icon.png */,
+				39E0856A124FC63600BEE7E2 /* Info.xib */,
+				396EE96511D0D7530029FE72 /* UmsatzArten.xib */,
+				3977226611D0DA8E0043139B /* StartTVController.xib */,
+				3969885D11D5648C0096157B /* Einfuhr.xib */,
+				3969888611D56C300096157B /* Einfuhr1.xib */,
+				396F697B11D649F600B6AEED /* EinfuhrFrei.xib */,
+				398218CC11D91BBA00D55270 /* EinfuhrBMG.xib */,
+				398218EB11D92D3B00D55270 /* EinfuhrEntstehung.xib */,
+				3982195211D939B800D55270 /* EinfuhrSchuldner.xib */,
+				3981544D123011F000B4674C /* EinfuhrRechnung.xib */,
+				399ACF3D123EB0B20006474D /* EinfuhrVorSt.xib */,
+				39414201124EA69200D093D5 /* EinfuhrResult.xib */,
+				396F66F711D5EE2200B6AEED /* Ige.xib */,
+				396F671C11D5EF1400B6AEED /* Ige1.xib */,
+				396F674411D5F25400B6AEED /* Ige10.xib */,
+				396F68C811D61A8C00B6AEED /* Ige11.xib */,
+				396F693F11D6279D00B6AEED /* Ige12.xib */,
+				396F683511D60FA800B6AEED /* IgeOrt.xib */,
+				396F69E911D66AEC00B6AEED /* IgeFrei.xib */,
+				396F6A0611D66CBC00B6AEED /* IgeBMG.xib */,
+				396AC22311D802F800D90152 /* IgeEntstehung.xib */,
+				3982197711D93D5E00D55270 /* IgeSchuldner.xib */,
+				39090851125D315300884741 /* IgeRechnung.xib */,
+				399ACF63123EB6A00006474D /* IgeVorSt.xib */,
+				39414217124EAB5B00D093D5 /* IgeResult.xib */,
+				3916AF81116A9C0E00354C30 /* Stufe21.xib */,
+				39CBF5CD117F4CAA00E3552D /* StufeBMG.xib */,
+				3987DDF011C6C93D0003D95E /* StufeBMG2.xib */,
+				39DEFD5011BA8DFB001B938E /* ViewKFZ.xib */,
+				392C59F71180A6DB00860526 /* Stufe20.xib */,
+				3969877B11D53F380096157B /* Stufe20a.xib */,
+				39A0E4A51188D2EC006F38F1 /* Stufe30.xib */,
+				39738DC3118E12BF0072F4C5 /* Stufe31.xib */,
+				39738DF8118E19EF0072F4C5 /* Stufe310.xib */,
+				397E833311A94F9B001B13CD /* Stufe311.xib */,
+				39692308118EB38900570852 /* Stufe32.xib */,
+				397EDC54118F507100C3F728 /* Stufe320.xib */,
+				39EBCD24118F617B00053957 /* Stufe3200.xib */,
+				3999FB8311A7DD30000DC678 /* StufeLS.xib */,
+				397E82FB11A9390A001B13CD /* StufeFrei.xib */,
+				397E839511A96EB1001B13CD /* StufeOption.xib */,
+				3911D7BA11A5695800975B7B /* Stufe33.xib */,
+				3911D80611A5703D00975B7B /* Stufe34.xib */,
+				39678DB711C81812008C7A1E /* StufeSteuersatz.xib */,
+				39E49A8111C8271E00561842 /* StufeEntstehung.xib */,
+				396AC15B11D7DC1E00D90152 /* StufeEntstehung2.xib */,
+				396AC1BB11D7E95400D90152 /* StufeAntragIst.xib */,
+				396AC17C11D7E09900D90152 /* VAZ.xib */,
+				396CFBBD11DA2AD1005C014F /* StufeSchuldner.xib */,
+				396CFFFB11DA6D9B0025C712 /* Stufe13b.xib */,
+				3986B12A11F8E8E50031153E /* StufeRechnung.xib */,
+				3981545F1230178D00B4674C /* StufeRechnung1.xib */,
+				398154641230179800B4674C /* StufeRechnung2.xib */,
+				39815474123017E000B4674C /* StufeRechnung3.xib */,
+				399FECB1123D091D00B0492E /* StufeVorSt.xib */,
+				39662EC61249583000CEF95A /* Result.xib */,
+				397856FC126079D500BEF344 /* VorStBerichtigung.xib */,
+				397790BC12637BA10027FFA3 /* Stufe15a.xib */,
+				397C7B011261C11D008B1560 /* Stufe17.xib */,
+				28C3AD890F43EF2300507BA6 /* USt.xcdatamodel */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* USt-Info.plist */,
+				392AEC8E1202325B00A036D4 /* Default.png */,
+				65BB17BB16C6F59300A0443E /* Default@2x.png */,
+				65B121E716C6E5EF00CA971F /* Default-568h@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				28D801B30F44B63D00FB423F /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* USt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "USt" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = USt;
+			productName = USt;
+			productReference = 1D6058910D05DD3D006BFB54 /* Umsatzsteuer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "USt" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* USt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				65DB3E351EB5DA1800FDA5DD /* Images.xcassets in Resources */,
+				3916AF82116A9C0E00354C30 /* Stufe21.xib in Resources */,
+				39CBF5CE117F4CAA00E3552D /* StufeBMG.xib in Resources */,
+				392C59F81180A6DB00860526 /* Stufe20.xib in Resources */,
+				39A0E4A61188D2EC006F38F1 /* Stufe30.xib in Resources */,
+				39738DC4118E12BF0072F4C5 /* Stufe31.xib in Resources */,
+				39738DF9118E19EF0072F4C5 /* Stufe310.xib in Resources */,
+				39692309118EB38900570852 /* Stufe32.xib in Resources */,
+				397EDC55118F507100C3F728 /* Stufe320.xib in Resources */,
+				39EBCD25118F617B00053957 /* Stufe3200.xib in Resources */,
+				3911D7BB11A5695800975B7B /* Stufe33.xib in Resources */,
+				3911D80711A5703D00975B7B /* Stufe34.xib in Resources */,
+				3999FB8411A7DD30000DC678 /* StufeLS.xib in Resources */,
+				397E82FC11A9390A001B13CD /* StufeFrei.xib in Resources */,
+				397E833411A94F9B001B13CD /* Stufe311.xib in Resources */,
+				397E839611A96EB1001B13CD /* StufeOption.xib in Resources */,
+				39DEFD5111BA8DFB001B938E /* ViewKFZ.xib in Resources */,
+				3987DDF211C6C93D0003D95E /* StufeBMG2.xib in Resources */,
+				39678DB911C81812008C7A1E /* StufeSteuersatz.xib in Resources */,
+				39E49A8311C8271E00561842 /* StufeEntstehung.xib in Resources */,
+				396EE96711D0D7530029FE72 /* UmsatzArten.xib in Resources */,
+				3977226711D0DA8E0043139B /* StartTVController.xib in Resources */,
+				3969877D11D53F380096157B /* Stufe20a.xib in Resources */,
+				3969885F11D5648C0096157B /* Einfuhr.xib in Resources */,
+				3969888811D56C300096157B /* Einfuhr1.xib in Resources */,
+				396F66F911D5EE2200B6AEED /* Ige.xib in Resources */,
+				396F671E11D5EF1400B6AEED /* Ige1.xib in Resources */,
+				396F674611D5F25400B6AEED /* Ige10.xib in Resources */,
+				396F683711D60FA800B6AEED /* IgeOrt.xib in Resources */,
+				396F68CA11D61A8C00B6AEED /* Ige11.xib in Resources */,
+				396F694111D6279D00B6AEED /* Ige12.xib in Resources */,
+				396F697D11D649F600B6AEED /* EinfuhrFrei.xib in Resources */,
+				396F69EB11D66AEC00B6AEED /* IgeFrei.xib in Resources */,
+				396F6A0811D66CBC00B6AEED /* IgeBMG.xib in Resources */,
+				396AC15D11D7DC1E00D90152 /* StufeEntstehung2.xib in Resources */,
+				396AC17E11D7E09900D90152 /* VAZ.xib in Resources */,
+				396AC1BD11D7E95400D90152 /* StufeAntragIst.xib in Resources */,
+				396AC22511D802F800D90152 /* IgeEntstehung.xib in Resources */,
+				398218CE11D91BBA00D55270 /* EinfuhrBMG.xib in Resources */,
+				398218ED11D92D3B00D55270 /* EinfuhrEntstehung.xib in Resources */,
+				3982195411D939B800D55270 /* EinfuhrSchuldner.xib in Resources */,
+				3982197911D93D5E00D55270 /* IgeSchuldner.xib in Resources */,
+				396CFBBF11DA2AD1005C014F /* StufeSchuldner.xib in Resources */,
+				396CFFFD11DA6D9B0025C712 /* Stufe13b.xib in Resources */,
+				3914244111F4C78100D1E9E3 /* Icon.png in Resources */,
+				3914244311F4C78E00D1E9E3 /* Icon@2x.png in Resources */,
+				3914244511F4C79B00D1E9E3 /* Icon-72.png in Resources */,
+				39070BD211F5DDEE00E50839 /* iTunesArtwork in Resources */,
+				3903289311F794CE001F4B08 /* Settings.bundle in Resources */,
+				65DB3E3D1EB611FF00FDA5DD /* Launch1242x2208.png in Resources */,
+				3986B0E811F8D8F00031153E /* Icon-29.png in Resources */,
+				3986B0EA11F8D9000031153E /* Icon-29@2x.png in Resources */,
+				3986B0EC11F8D90E0031153E /* Icon-50.png in Resources */,
+				65DB3E371EB60ED800FDA5DD /* icon-60@2x.png in Resources */,
+				3986B12C11F8E8E50031153E /* StufeRechnung.xib in Resources */,
+				392AEC8F1202325B00A036D4 /* Default.png in Resources */,
+				3981544F123011F000B4674C /* EinfuhrRechnung.xib in Resources */,
+				398154611230178D00B4674C /* StufeRechnung1.xib in Resources */,
+				398154661230179800B4674C /* StufeRechnung2.xib in Resources */,
+				39815476123017E000B4674C /* StufeRechnung3.xib in Resources */,
+				399FECB3123D091D00B0492E /* StufeVorSt.xib in Resources */,
+				399ACF3F123EB0B20006474D /* EinfuhrVorSt.xib in Resources */,
+				399ACF65123EB6A00006474D /* IgeVorSt.xib in Resources */,
+				39662EC81249583000CEF95A /* Result.xib in Resources */,
+				39414203124EA69200D093D5 /* EinfuhrResult.xib in Resources */,
+				39414219124EAB5B00D093D5 /* IgeResult.xib in Resources */,
+				39E0856C124FC63600BEE7E2 /* Info.xib in Resources */,
+				396E21101258EE58002266EF /* Changes.rtf in Resources */,
+				39090853125D315300884741 /* IgeRechnung.xib in Resources */,
+				397856FE126079D500BEF344 /* VorStBerichtigung.xib in Resources */,
+				65DB3E3B1EB6112D00FDA5DD /* Launch750x1334.png in Resources */,
+				397C7B031261C11D008B1560 /* Stufe17.xib in Resources */,
+				397790BE12637BA10027FFA3 /* Stufe15a.xib in Resources */,
+				65B121E816C6E5EF00CA971F /* Default-568h@2x.png in Resources */,
+				65BB17BC16C6F59300A0443E /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* UStAppDelegate.m in Sources */,
+				28C3AD8A0F43EF2300507BA6 /* USt.xcdatamodel in Sources */,
+				39740EB011686C07006C8505 /* StartTVController.m in Sources */,
+				399457A31175159F00CA1A11 /* StufeOLD.m in Sources */,
+				39CBF5D4117F4D4800E3552D /* StufeBMG.m in Sources */,
+				392C59F01180A65A00860526 /* Stufe20.m in Sources */,
+				39A0E4AE1188D5FD006F38F1 /* Stufe30.m in Sources */,
+				39738DAF118E0F1E0072F4C5 /* Stufe31.m in Sources */,
+				39738DF7118E18800072F4C5 /* Stufe310.m in Sources */,
+				39692305118EB0C500570852 /* Stufe32.m in Sources */,
+				397EDC4F118F4CC700C3F728 /* Stufe320.m in Sources */,
+				3939F97B118F5DF700742AB2 /* Stufe3200.m in Sources */,
+				3911D7B111A5689200975B7B /* Stufe33.m in Sources */,
+				3911D80511A5702500975B7B /* Stufe34.m in Sources */,
+				3911D90E11A7DAD400975B7B /* StufeLS.m in Sources */,
+				397E82FA11A93897001B13CD /* StufeFrei.m in Sources */,
+				397E833211A94806001B13CD /* Stufe311.m in Sources */,
+				397E839411A969DF001B13CD /* StufeOption.m in Sources */,
+				3910F10011BB0CF800352EE3 /* Kfz_Controller.m in Sources */,
+				397BE14B11C4414100FEEB41 /* Categ4UIViewCon.m in Sources */,
+				3987DDF111C6C93D0003D95E /* StufeBMG2.m in Sources */,
+				39678DB811C81812008C7A1E /* StufeSteuersatz.m in Sources */,
+				39E49A8211C8271E00561842 /* StufeEntstehung.m in Sources */,
+				396EE96611D0D7530029FE72 /* UmsatzArten.m in Sources */,
+				396EC86711D1622C00734697 /* Data.m in Sources */,
+				3969877C11D53F380096157B /* Stufe20a.m in Sources */,
+				3969885E11D5648C0096157B /* Einfuhr.m in Sources */,
+				3969888711D56C300096157B /* Einfuhr1.m in Sources */,
+				396F66F811D5EE2200B6AEED /* Ige.m in Sources */,
+				396F671D11D5EF1400B6AEED /* Ige1.m in Sources */,
+				396F674511D5F25400B6AEED /* Ige10.m in Sources */,
+				396F683611D60FA800B6AEED /* IgeOrt.m in Sources */,
+				396F68C911D61A8C00B6AEED /* Ige11.m in Sources */,
+				396F694011D6279D00B6AEED /* Ige12.m in Sources */,
+				396F697C11D649F600B6AEED /* EinfuhrFrei.m in Sources */,
+				396F69EA11D66AEC00B6AEED /* IgeFrei.m in Sources */,
+				396F6A0711D66CBC00B6AEED /* IgeBMG.m in Sources */,
+				396AC15C11D7DC1E00D90152 /* StufeEntstehung2.m in Sources */,
+				396AC17D11D7E09900D90152 /* VAZ.m in Sources */,
+				396AC1BC11D7E95400D90152 /* StufeAntragIst.m in Sources */,
+				396AC22411D802F800D90152 /* IgeEntstehung.m in Sources */,
+				398218CD11D91BBA00D55270 /* EinfuhrBMG.m in Sources */,
+				398218EC11D92D3B00D55270 /* EinfuhrEntstehung.m in Sources */,
+				3982195311D939B800D55270 /* EinfuhrSchuldner.m in Sources */,
+				3982197811D93D5E00D55270 /* IgeSchuldner.m in Sources */,
+				396CFBBE11DA2AD1005C014F /* StufeSchuldner.m in Sources */,
+				396CFFFC11DA6D9B0025C712 /* Stufe13b.m in Sources */,
+				3986B12B11F8E8E50031153E /* StufeRechnung.m in Sources */,
+				3981544E123011F000B4674C /* EinfuhrRechnung.m in Sources */,
+				398154601230178D00B4674C /* StufeRechnung1.m in Sources */,
+				398154651230179800B4674C /* StufeRechnung2.m in Sources */,
+				39815475123017E000B4674C /* StufeRechnung3.m in Sources */,
+				399FECB2123D091D00B0492E /* StufeVorSt.m in Sources */,
+				399ACF3E123EB0B20006474D /* EinfuhrVorSt.m in Sources */,
+				399ACF64123EB6A00006474D /* IgeVorSt.m in Sources */,
+				39849AA91249209B0018829E /* MotionWindow.m in Sources */,
+				39662EC71249583000CEF95A /* Result.m in Sources */,
+				39414202124EA69200D093D5 /* EinfuhrResult.m in Sources */,
+				39414218124EAB5B00D093D5 /* IgeResult.m in Sources */,
+				39E0856B124FC63600BEE7E2 /* Info.m in Sources */,
+				39090852125D315300884741 /* IgeRechnung.m in Sources */,
+				397856FD126079D500BEF344 /* VorStBerichtigung.m in Sources */,
+				397C7B021261C11D008B1560 /* Stufe17.m in Sources */,
+				397790BD12637BA10027FFA3 /* Stufe15a.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = WKUNXM3QC8;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = USt_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "USt-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.bozeman.Umsatzsteuer;
+				PRODUCT_NAME = Umsatzsteuer;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = WKUNXM3QC8;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = USt_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "USt-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.bozeman.Umsatzsteuer;
+				PRODUCT_NAME = Umsatzsteuer;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		3969ACF11253EB78008EEFF8 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Matthias Blanquett (WKUNXM3QC8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Matthias Blanquett (WKUNXM3QC8)";
+				DEVELOPMENT_TEAM = WKUNXM3QC8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = Umsatzsteuer;
+				PROVISIONING_PROFILE = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Distribution;
+		};
+		3969ACF21253EB78008EEFF8 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = WKUNXM3QC8;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = USt_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "USt-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.bozeman.Umsatzsteuer;
+				PRODUCT_NAME = Umsatzsteuer;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		3972574C11F4B828007BF841 /* Analyze */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = WKUNXM3QC8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = Umsatzsteuer;
+				PROVISIONING_PROFILE = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Analyze;
+		};
+		3972574D11F4B828007BF841 /* Analyze */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = WKUNXM3QC8;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = USt_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "USt-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.bozeman.Umsatzsteuer;
+				PRODUCT_NAME = Umsatzsteuer;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+			};
+			name = Analyze;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = WKUNXM3QC8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = Umsatzsteuer;
+				PROVISIONING_PROFILE = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = WKUNXM3QC8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = Umsatzsteuer;
+				PROVISIONING_PROFILE = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "USt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				3972574D11F4B828007BF841 /* Analyze */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				3969ACF21253EB78008EEFF8 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "USt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				3972574C11F4B828007BF841 /* Analyze */,
+				C01FCF5008A954540054247B /* Release */,
+				3969ACF11253EB78008EEFF8 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
