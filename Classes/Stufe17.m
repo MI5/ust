@@ -77,12 +77,6 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
-- (void)viewDidUnload {
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
-}
-
 #pragma mark Keyboard Methods
 
 - (void)keyboardWillShow:(NSNotification *)aNotification {
@@ -146,9 +140,9 @@
         return NO;
     }
 
-	// Dann nur Zahlen und Kommas zulassen
-	for (int i = 0; i < [textEntered length]; i++) {
-		unichar d = [textEntered characterAtIndex:i];
+	// Dann nur Zahlen und Kommas zulassen (Was a loop before, that did not loop...)
+    if (textEntered.length > 0) {
+		unichar d = [textEntered characterAtIndex:0];
         if (![NUMBERS characterIsMember:d]) {
             return NO;
         } else {

@@ -208,18 +208,6 @@
 		[pic presentAnimated:YES completionHandler:completionHandler];
 }
 
-
-// called after the view controller's view is released and set to nil.
-// For example, a memory warning which causes the view to be purged. Not invoked as a result of -dealloc.
-// So release any properties that are loaded in viewDidLoad or can be recreated lazily.
-//
-- (void)viewDidUnload
-{
-	[super viewDidUnload];
-
-	self.textView = nil;
-}
-
 - (void)viewWillAppear:(BOOL)animated 
 {
     // listen for keyboard hide/show notifications so we can properly adjust the table's height

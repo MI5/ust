@@ -52,13 +52,6 @@
 	// Release any cached data, images, etc that aren't in use.
 }
 
-- (void)viewDidUnload {
-	// Release any retained subviews of the main view.
-	// e.g. self.myOutlet = nil;
-    [super viewDidUnload];
-}
-
-
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
 	if (indexPath.section == 1) {
         if (typ == 1) {
@@ -242,9 +235,9 @@
         return NO;
     }
 
-	// Dann nur Zahlen und Kommas zulassen
-	for (int i = 0; i < [textEntered length]; i++) {
-		unichar d = [textEntered characterAtIndex:i];
+    // Dann nur Zahlen und Kommas zulassen (Was a loop before, that did not loop...)
+    if (textEntered.length > 0) {
+        unichar d = [textEntered characterAtIndex:0];
         if (![NUMBERS characterIsMember:d]) {
             return NO;
         } else {

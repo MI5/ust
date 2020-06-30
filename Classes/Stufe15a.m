@@ -431,16 +431,6 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
-// called after the view controller's view is released and set to nil.
-// For example, a memory warning which causes the view to be purged. Not invoked as a result of -dealloc.
-// So release any properties that are loaded in viewDidLoad or can be recreated lazily.
-//
-- (void)viewDidUnload {
-	// Ich arbeite statt dessen mit autorelease, sonst stürzt die App ab
-	// self.datePickerView = nil;
-    [super viewDidUnload];
-}
-
 #pragma mark UITextField-delegate-Methode
 
 // sorgt dafür, dass man nur eine bestimmte Anzahl von Stellen eingeben kann

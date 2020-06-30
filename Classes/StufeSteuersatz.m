@@ -43,13 +43,6 @@ static const NSInteger kSection0	= 0;
 	// Release any cached data, images, etc that aren't in use.
 }
 
-- (void)viewDidUnload {
-	// Release any retained subviews of the main view.
-	// e.g. self.myOutlet = nil;
-    [super viewDidUnload];
-}
-
-
 #pragma mark Table view methods
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -119,7 +112,7 @@ static const NSInteger kSection0	= 0;
 				cell.textLabel.text = NSLocalizedString(@"Holz", nil);
 				break;
 			case 3:
-				cell.textLabel.text = NSLocalizedString(@"Presseerzeugnisse", nil);
+				cell.textLabel.text = NSLocalizedString(@"Presseerzeugnisse, E-Books, E-Papers", nil);
 				break;
 			case 4:
 				cell.textLabel.text = NSLocalizedString(@"Kunstgegenstände", nil);
@@ -178,7 +171,5 @@ static const NSInteger kSection0	= 0;
 
 	[self.navigationController pushViewController:nextStep animated:YES];
 }
-
-
 
 @end

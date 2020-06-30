@@ -45,12 +45,6 @@
 	// Release any cached data, images, etc that aren't in use.
 }
 
-- (void)viewDidUnload {
-	// Release any retained subviews of the main view.
-	// e.g. self.myOutlet = nil;
-    [super viewDidUnload];
-}
-
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.section == 1) {
