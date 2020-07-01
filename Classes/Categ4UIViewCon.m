@@ -69,12 +69,12 @@ NSString * typeOfNextButton = @"";
 			nextStep = [[IgeRechnung alloc] initWithNibName:@"IgeRechnung" bundle:nil];
 		else {
 			if ([[Data instance] steuersatz] == k19Prozent) {
-				if ([[Data instance] entgelt] * 1.19 > 250.0)
+				if ([[Data instance] entgelt] * 1.16 > 250.0)
 					nextStep = [[StufeRechnung2 alloc] initWithNibName:@"StufeRechnung2" bundle:nil];
 				else
 					nextStep = [[StufeRechnung1 alloc] initWithNibName:@"StufeRechnung1" bundle:nil];
 			} else {
-				if ([[Data instance] entgelt] * 1.07 > 250.0)
+				if ([[Data instance] entgelt] * 1.05 > 250.0)
 					nextStep = [[StufeRechnung2 alloc] initWithNibName:@"StufeRechnung2" bundle:nil];
 				else
 					nextStep = [[StufeRechnung1 alloc] initWithNibName:@"StufeRechnung1" bundle:nil];

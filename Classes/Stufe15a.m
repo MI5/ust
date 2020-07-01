@@ -110,16 +110,25 @@
 		// Falls Datum vor dem 1.1.2007 und Steuersatz = 19 %, muss Steuersatz auf 16 % gesetzt werden
 																				 // + die Schaltjahre
 		NSDate *compareDate = [NSDate dateWithTimeIntervalSince1970:60*60*24*365*37+60*60*24*9];
-								// Ich muss 1 Stunde adden, weil wir sonst, warum auch immer, eine Stunde zu weit hinten sind, und somit den falschen Tag haben
+								// Ich muss 1 Stunde adden, weil wir sonst eine Stunde zu weit hinten sind, und somit den falschen Tag haben
 		if (steuersatz > 0.15 && [[date1 dateByAddingTimeInterval:60*60] timeIntervalSince1970] < compareDate.timeIntervalSince1970) {
 			steuersatz = 0.16;
 			// NSLog(@"%@ < %@",date1.description,compareDate.description);
 			[self updateSteuersatz];
 		} else if (steuersatz > 0.15 && [[date1 dateByAddingTimeInterval:60*60] timeIntervalSince1970] >= compareDate.timeIntervalSince1970) {
 			steuersatz = 0.19;
-			// NSLog(@"Drin bei 0.19");
+			// NSLog(@"Drin bei Null Punkt eins neun");
 			[self updateSteuersatz];
 		}
+
+        // Speziallogik für 01.07.2020 bis 31.12.2020 mit Umsatzsteuersatz von Sechzehn %
+        NSDate *midOfYear2020 = [NSDate dateWithTimeIntervalSince1970:60*60*24*365*50.5+60*60*24*11];
+        NSDate *endOfYear2020 = [NSDate dateWithTimeIntervalSince1970:60*60*24*365*51+60*60*24*12];
+
+        if ([[date1 dateByAddingTimeInterval:60*60] timeIntervalSince1970] >= midOfYear2020.timeIntervalSince1970 && [[date1 dateByAddingTimeInterval:60*60] timeIntervalSince1970] <= endOfYear2020.timeIntervalSince1970) {
+            steuersatz = 0.16;
+            [self updateSteuersatz];
+        }
 	} else {
 		date2 = datePickerView.date.copy;
 	}
@@ -389,9 +398,9 @@
 	self.prozent = 1;
 
     if ([[Data instance] steuersatz] == k19Prozent) {
-		steuersatz = 0.19;
+		steuersatz = 0.16;
     } else {
-		steuersatz = 0.07;
+		steuersatz = 0.05;
     }
 
 	[self updateSteuersatz];

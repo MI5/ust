@@ -47,11 +47,11 @@
 
 	[alteBmg setText:[numberFormatter stringFromNumber:[NSNumber numberWithFloat:[[Data instance] entgelt]]]];
 	if ([Data instance].steuersatz == k19Prozent) {
-		[steuersatz setText:NSLocalizedString(@"19", nil)];
-		[alteVorsteuer setText:[numberFormatter stringFromNumber:[NSNumber numberWithFloat:[[Data instance] entgelt] * 0.19]]];
+		[steuersatz setText:NSLocalizedString(@"16", nil)];
+		[alteVorsteuer setText:[numberFormatter stringFromNumber:[NSNumber numberWithFloat:[[Data instance] entgelt] * 0.16]]];
 	} else {
-		[steuersatz setText:@"7"];
-		[alteVorsteuer setText:[numberFormatter stringFromNumber:[NSNumber numberWithFloat:[[Data instance] entgelt] * 0.07]]];
+		[steuersatz setText:@"5"];
+		[alteVorsteuer setText:[numberFormatter stringFromNumber:[NSNumber numberWithFloat:[[Data instance] entgelt] * 0.05]]];
 	}
 }
 
@@ -99,12 +99,13 @@
 		[vorsteuerAenderung setText:@""];
 	} else {
 		[differenzBmg setText:[numberFormatter stringFromNumber:[NSNumber numberWithFloat:[[numberFormatter numberFromString:neueBmg.text] floatValue] - [[Data instance] entgelt]]]];
+
 		[vorsteuerAenderung setText:[numberFormatter stringFromNumber:[NSNumber numberWithFloat:[[Data instance] entgelt] * 0.07]]];
 
 		if ([Data instance].steuersatz == k19Prozent) {
-			[vorsteuerAenderung setText:[numberFormatter stringFromNumber:[NSNumber numberWithFloat: [[numberFormatter numberFromString:differenzBmg.text] floatValue] * 0.19]]];
+			[vorsteuerAenderung setText:[numberFormatter stringFromNumber:[NSNumber numberWithFloat: [[numberFormatter numberFromString:differenzBmg.text] floatValue] * 0.16]]];
 		} else {
-			[vorsteuerAenderung setText:[numberFormatter stringFromNumber:[NSNumber numberWithFloat: [[numberFormatter numberFromString:differenzBmg.text] floatValue] * 0.07]]];
+			[vorsteuerAenderung setText:[numberFormatter stringFromNumber:[NSNumber numberWithFloat: [[numberFormatter numberFromString:differenzBmg.text] floatValue] * 0.05]]];
 		}
 	}
 }

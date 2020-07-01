@@ -63,7 +63,7 @@ static const NSInteger kSection0	= 0;
     }
 
     if (section == kSection0) {
-		return 7;
+		return 10;
     } else {
 		return 4;
     }
@@ -73,13 +73,13 @@ static const NSInteger kSection0	= 0;
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
 	// i. g. E. von KFZ oder KFZ-Umsatz
     if (([[Data instance] umsatzArt] == kIge && [[Data instance] bmgTyp] == entgeltlichBMG) || [[Data instance] kfzUmsatz]) {
-		return NSLocalizedString(@"Allgemeiner Steuersatz - 19 %", nil);
+		return NSLocalizedString(@"Allgemeiner Steuersatz - 16 %", nil);
     }
 
     if (section == kSection0) {
-		return NSLocalizedString(@"Ermäßigter Steuersatz - 7 % (Auszug)", nil);
+		return NSLocalizedString(@"Ermäßigter Steuersatz - 5 % (Auszug)", nil);
     } else {
-		return NSLocalizedString(@"Allgemeiner Steuersatz - 19 %", nil);
+		return NSLocalizedString(@"Allgemeiner Steuersatz - 16 %", nil);
     }
 }
 
@@ -129,6 +129,10 @@ static const NSInteger kSection0	= 0;
 			case 8:
 				cell.textLabel.text = NSLocalizedString(@"Hotelübernachtungen", nil);
 				break;
+            case 9:
+                cell.textLabel.text = NSLocalizedString(@"Abgabe von Speisen (Restaurations- / Bewirtungs- und Verpflegungsleistungen) Befristet vom 01.07.2020 - 30.06.2021", nil);
+                cell.textLabel.font = [UIFont systemFontOfSize:12.0];
+                break;
 		}
 	} else {
 		switch ([indexPath indexAtPosition:1]) {
