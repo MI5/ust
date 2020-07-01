@@ -63,7 +63,7 @@
 			cell.textLabel.text = NSLocalizedString(@"Umsätze lfd. Jahr < 50.000 €", nil);
 			break;
 		case 1:
-			cell.textLabel.text = NSLocalizedString(@"Umsätze altes Jahr < 17.500 €", nil);
+			cell.textLabel.text = NSLocalizedString(@"Umsätze altes Jahr < 22.000 €", nil);
 			break;
 		case 2:
 			cell.textLabel.text = NSLocalizedString(@"Kein Verzicht auf Regelung", nil);

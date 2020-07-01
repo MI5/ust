@@ -154,7 +154,7 @@
 	// Hier kein * prozent, da ich ja von der ursprünglichen Verwendungshöhe ausgehe
 	if ([[Data instance] entgelt] * steuersatz <= 1000.0) {
 		hinweis.textColor = UIColor.redColor;
-		hinweis.text = @"Es ist keine Vorsteuerberichtigung vorzunehmen, da Vorsteuer kleiner oder gleich 1.000 € (§ 44 Abs. 1 UStDV).";
+		hinweis.text = NSLocalizedString(@"Es ist keine Vorsteuerberichtigung vorzunehmen, da Vorsteuer kleiner oder gleich 1.000 € (§ 44 Abs. 1 UStDV).", nil);
 		hinweis.hidden = NO;
 		return;
 	}
@@ -163,7 +163,7 @@
 	// Muss eigentlich auch noch weiter unten betrachtetet werden, wegen einzelner Kalenderjahrbetrachtung, falls kein volles Jahr
 	if (prozent < 0.1 && [[Data instance] entgelt] * steuersatz * prozent / self.years <= 1000.0) {
 		hinweis.textColor = UIColor.redColor;
-		hinweis.text = @"Keine Berichtigung, da Korrektur jedes Jahr kleiner 1.000 € und Änderung um weniger als 10 Prozentpunkte (§ 44 Abs. 2 UStDV).";
+        hinweis.text = NSLocalizedString(@"Keine Berichtigung, da Korrektur jedes Jahr kleiner 1.000 € und Änderung um weniger als 10 Prozentpunkte (§ 44 Abs. 2 UStDV).", nil);
 		hinweis.hidden = NO;
 		return;
 	}

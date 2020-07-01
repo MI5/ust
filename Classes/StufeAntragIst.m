@@ -83,7 +83,7 @@
 
 	switch ([indexPath indexAtPosition:1]) {
 		case 0:
-			cell.textLabel.text = NSLocalizedString(@"Gesamtumsatz im alten Jahr kleiner 500.000 € oder", nil);
+			cell.textLabel.text = NSLocalizedString(@"Gesamtumsatz im alten Jahr kleiner 600.000 € oder", nil);
 			break;
 		case 1:
 			cell.textLabel.text = NSLocalizedString(@"Befreiung von der Buchführungspflicht oder", nil);

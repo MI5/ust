@@ -105,22 +105,28 @@ static const NSInteger kSection0	= 0;
 			case 0:
 				cell.textLabel.text = NSLocalizedString(@"Lebensmittel", nil);
 				break;
-			case 1:
+            case 1:
+                cell.textLabel.text = NSLocalizedString(@"Frauenhygieneartikel", nil);
+                break;
+			case 2:
 				cell.textLabel.text = NSLocalizedString(@"Bestimmte lebende Tiere", nil);
 				break;
-			case 2:
+			case 3:
 				cell.textLabel.text = NSLocalizedString(@"Holz", nil);
 				break;
-			case 3:
+			case 4:
 				cell.textLabel.text = NSLocalizedString(@"Presseerzeugnisse, E-Books, E-Papers", nil);
 				break;
-			case 4:
+			case 5:
 				cell.textLabel.text = NSLocalizedString(@"Kunstgegenstände", nil);
 				break;
-			case 5:
-				cell.textLabel.text = NSLocalizedString(@"Personenbeförderungen im Nahverkehr (innerorts o. < 50 km)", nil);
+            case 6:
+                cell.textLabel.text = NSLocalizedString(@"Bahnfahrten im Nah- und Fernverkehr", nil);
+                break;
+			case 7:
+				cell.textLabel.text = NSLocalizedString(@"Bus- und Taxifahrten im Nahverkehr (innerorts o. < 50 km)", nil);
 				break;
-			case 6:
+			case 8:
 				cell.textLabel.text = NSLocalizedString(@"Hotelübernachtungen", nil);
 				break;
 		}
