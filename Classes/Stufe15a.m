@@ -398,9 +398,9 @@
 	self.prozent = 1;
 
     if ([[Data instance] steuersatz] == k19Prozent) {
-		steuersatz = 0.16;
+		steuersatz = 0.19;
     } else {
-		steuersatz = 0.05;
+		steuersatz = 0.07;
     }
 
 	[self updateSteuersatz];

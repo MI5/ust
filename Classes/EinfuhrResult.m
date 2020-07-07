@@ -26,20 +26,20 @@
 
 	NSNumber* bruttowert;
 	if ([[Data instance] steuersatz] == k19Prozent) {
-		[s appendString:@"§ 12 Abs. 1 UStG ist der allgemeine Steuersatz von 16"];
+		[s appendString:@"§ 12 Abs. 1 UStG ist der allgemeine Steuersatz von 19"];
 
-		bruttowert = [NSNumber numberWithFloat:[[Data instance] entgelt] * 1.16];
+		bruttowert = [NSNumber numberWithFloat:[[Data instance] entgelt] * 1.19];
 	} else {
-		[s appendString:@"§ 12 Abs. 2 UStG ist der ermäßigte Steuersatz von 5"];
+		[s appendString:@"§ 12 Abs. 2 UStG ist der ermäßigte Steuersatz von 7"];
 
-		bruttowert = [NSNumber numberWithFloat:[[Data instance] entgelt] * 1.05];
+		bruttowert = [NSNumber numberWithFloat:[[Data instance] entgelt] * 1.07];
 	}
 	[s appendString:@" Prozent anzuwenden. Es ist ein Betrag in Höhe von "];
 
 	if ([[Data instance] steuersatz] == k19Prozent)
-		bruttowert = [NSNumber numberWithFloat:[bruttowert floatValue] - ([bruttowert floatValue] / 1.16)];
+		bruttowert = [NSNumber numberWithFloat:[bruttowert floatValue] - ([bruttowert floatValue] / 1.19)];
 	else
-		bruttowert = [NSNumber numberWithFloat:[bruttowert floatValue] - ([bruttowert floatValue] / 1.05)];
+		bruttowert = [NSNumber numberWithFloat:[bruttowert floatValue] - ([bruttowert floatValue] / 1.07)];
 	[s appendString:[numberFormatter stringFromNumber:bruttowert]];
 	[s appendString:[self checkIfToAddEndingZero:s]];
 	[s appendString:@" € als Einfuhrumsatzsteuer an den Zoll zu entrichten. In gleicher Höhe hat ein Unternehmer "];

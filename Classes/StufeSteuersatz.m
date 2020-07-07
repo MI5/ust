@@ -73,13 +73,13 @@ static const NSInteger kSection0	= 0;
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
 	// i. g. E. von KFZ oder KFZ-Umsatz
     if (([[Data instance] umsatzArt] == kIge && [[Data instance] bmgTyp] == entgeltlichBMG) || [[Data instance] kfzUmsatz]) {
-		return NSLocalizedString(@"Allgemeiner Steuersatz - 16 %", nil);
+		return NSLocalizedString(@"Allgemeiner Steuersatz - 19 %", nil);
     }
 
     if (section == kSection0) {
-		return NSLocalizedString(@"Ermäßigter Steuersatz - 5 % (Auszug)", nil);
+		return NSLocalizedString(@"Ermäßigter Steuersatz - 7 % (Auszug)", nil);
     } else {
-		return NSLocalizedString(@"Allgemeiner Steuersatz - 16 %", nil);
+		return NSLocalizedString(@"Allgemeiner Steuersatz - 19 %", nil);
     }
 }
 
